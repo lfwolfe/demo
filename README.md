@@ -105,6 +105,22 @@ Switch to destination branch then
   Resolve conflict
 - git commit -m “resolved conflict”
 
+Download P4Merge: https://www.perforce.com/downloads/helix#clients
+
+Run only the P4V client
+
+Configure P4Merge as Diff Tool in Git:
+
+- git config --global diff.tool p4merge
+- git config --global difftool.p4merge.path "/Applications/p4merge.app/Contents/MacOS/p4merge"
+- git config --global difftool.prompt false
+
+Configure P4Merge as Merge Tool in Git:
+
+- git config --global merge.tool p4merge
+- git config --global mergetool.p4merge.path "/Applications/p4merge.app/Contents/MacOS/p4merge"
+- git config --global mergetool.prompt false
+
 ### Tag
 
 #### Add tag
