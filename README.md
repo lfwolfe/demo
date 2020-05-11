@@ -1,8 +1,7 @@
 # GIT
 
-Notes that help to simplify
-Head points to last commit unless you move it
-Branches are just labels of timeline
+Head points to last commit unless you move it.
+Tons of commits and some branching here if you want to play with the commits and move head around.
 
 ### Basics
 
