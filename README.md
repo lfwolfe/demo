@@ -165,7 +165,7 @@ Will see last commands and can reset back to where we were
 ```
 git remote -v
 ```
-#### Set remote repo
+#### Set remote origin
 ```
 git remote add origin git@github.com:xxxxxxx
 ```
@@ -173,11 +173,11 @@ git remote add origin git@github.com:xxxxxxx
 ```
 git push -u origin master.
 ```
-#### Update remote repo
+#### Update origin
 ```
 git remote set-url origin git@github.com:xxxxxxx
 ```
-#### Show oright
+#### Show origin
 ```
 git remote show origin
 ```
