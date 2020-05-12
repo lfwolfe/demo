@@ -9,6 +9,27 @@ Tons of commits and some branching here if you want to play with the commits and
 ```
 git log
 git show
+
+example: 
+git show 1587e2cfa046d1481e4b9b8a434ac03e721c33e4
+commit 1587e2cfa046d1481e4b9b8a434ac03e721c33e4
+Merge: e59a22b f7220c8
+Author: xxxxxxx <xxxxxxxxxxx>
+Date:   Mon May 11 15:19:07 2020 -0400
+
+    Resolving conflict
+
+diff --cc README.txt
+index 7cdbc1a,fdb1b52..b2068ce
+--- a/README.txt
++++ b/README.txt
+@@@ -3,4 -3,4 +3,4 @@@
+  ## sub header
+  
+  this is a simple readme file
+- this will cause problems yes I know it will but will do it
+ -this will cause trouble yes yes
+++this will cause problems yes I know it will but will do it yes yes
 git log --oneline --graph --decorate --all
 ```
 #### List files
