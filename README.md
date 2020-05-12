@@ -173,3 +173,11 @@ git remote add origin git@github.com:xxxxxxx
 ```
 git push -u origin master.
 ```
+#### Update remote repo
+```
+git remote set-url origin git@github.com:xxxxxxx
+```
+#### Show oright
+```
+git remote show origin
+```
